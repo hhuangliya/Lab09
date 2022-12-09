@@ -6,13 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <ImageView
+    <view
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/amoguses"
+        android:layout_height="0dp"
+        class="com.example.lab09.DrawView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="among us sprites"/>
+        android:id="@+id/drawView"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
